@@ -1,0 +1,66 @@
+body{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+li{
+  float: right;
+  padding-left: 6%;
+  padding-right:4%;
+  
+  
+}
+ul{
+  list-style-type: none;
+}
+.nav_links{
+  color: rgba(37, 9, 215, 0.85);
+  text-decoration: none;
+  
+}
+
+
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .skill-heading {
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    font-weight: 990;
+    color:rgba(37, 9, 215, 0.85);
+  
+  }
+  
+  .skills-wrapper img {
+    padding: 1.25rem;
+  }
+  
+  .icon {
+    width: 11.875rem;
+    height: 11.25rem;
+  }
+  .icon-card {
+    background-color:white;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px #f2eeee ;
+    padding: 2vh;
+    margin: 1.5vh;
+
+  }
+
+ 
+
+  @media screen and (max-width: 720px){
+    .icon {
+       display: flex;
+       flex-direction: column;
+
+        width: 5.875rem;
+        height: 5.25rem;
+      }
+  }
