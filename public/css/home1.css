@@ -1,15 +1,7 @@
-
 body{
     display: flex;
-     flex-direction: column; 
-     width: 100%;
-}
-
-
-
-
-body.homepage{
-    /* background: rgba(37, 9, 215, 0.85); */
+    flex-direction: column; 
+    width: 100%;
     background: linear-gradient(0deg, rgba(37, 9, 215, 0.85)  10%, #039be5 90% );
     overflow: hidden;
     background-repeat: no-repeat;
@@ -17,8 +9,13 @@ body.homepage{
     
     height:100vh;
     
-  
 }
+
+
+
+
+
+
 
 .homepage .anim{
     height: 0px;
@@ -32,7 +29,7 @@ body.homepage{
     overflow: hidden;
     border-radius: 10%;
     transform: translate(-50%, -50%);
-    animation: body_part 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards;
+    animation: body_part 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear;
 }
 
 .homepage #animate {
@@ -174,10 +171,6 @@ ul{
     
 }
 
-.nav_div{
-    
-   
-}
 #giticon{
     border-radius: 50%;
 }
